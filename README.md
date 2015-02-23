@@ -3,7 +3,8 @@ Docker running Nginx static content
 
 Getting started.
 
-0. Initialize and start up boot2docker with 
+0. When on OS X boot2docker provides a VirtualBox VM virtual machine for Docker to run on.
+   Initialize and start up boot2docker with
 
 ```
 boot2docker init
@@ -41,7 +42,7 @@ Then commit.
 docker commit -m "Add nginx serving index.html file statically." 61aa913398ca foo:nginx_static
 ```
 
-This will yield a length wiered ting. Finalliy you can stop the docker
+This will yield a length weired ting. Finally you can stop the docker
 container now.
 
 ```
